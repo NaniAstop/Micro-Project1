@@ -1,0 +1,141 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:  #FFCD9E;
+    
+}
+
+.content {
+    
+    display: grid;
+    grid-template-columns: fr 1fr;
+    align-items: start;
+    gap: 30px;
+}
+
+.header {
+    
+    grid-column: 1 / 2;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.showcase-text {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.email-form {
+    
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.email-form input[type="email"] {
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    flex: 1;
+    border-color: black;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.email-form button:hover {
+    background-color: #333;
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    color: white;
+    margin-left: 20px;
+}
+
+.image-container {
+    grid-column: 2 / 3;
+    display:grid ;
+    align-items: start;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #282828;
+    color: white;
+    padding: 20px 50px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.dweep-link {
+    color: #d0a1f5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.social-icons {
+    display: left;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.email-link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
